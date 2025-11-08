@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Ethical Constructs & Inclusivity — ENGR 201</title>
+<style>
+  :root {
+    --accent:#345beb;
+    --accent2:#16a085;
+    --bg:#f7f9ff;
+    --card:#ffffff;
+    --text:#102030;
+  }
+  body {
+    margin:0;
+    font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;
+    color:var(--text);
+    background:linear-gradient(180deg,var(--bg) 0%, #ffffff 80%);
+  }
+  .wrap {max-width:960px;margin:0 auto;padding:22px;}
+  header {
+    display:flex;
+    align-items:center;
+    gap:18px;
+    margin-bottom:20px;
+  }
+  .logo {
+    width:80px;height:80px;border-radius:14px;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));
+    color:#fff;font-weight:700;font-size:20px;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 6px 20px rgba(52,91,235,.2);
+  }
+  h1 {margin:0;font-size:26px;}
+  p.lead {margin:6px 0 16px;color:#304060;}
+  .grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:16px;
+  }
+  .card {
+    background:var(--card);
+    border-radius:14px;
+    padding:18px;
+    box-shadow:0 6px 20px rgba(20,40,70,.08);
+  }
+  .card h3 {margin-top:0;color:var(--accent);}
+  .icons{display:flex;gap:10px;margin-top:10px}
+  .icon{width:46px;height:46px;border-radius:10px;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:22px}
+  .flow {
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    justify-content:space-between;
+    margin-top:10px;
+  }
+  .step {
+    flex:1 1 160px;
+    background:linear-gradient(180deg,#fff,#f3f6ff);
+    border:1px solid rgba(52,91,235,.1);
+    border-radius:10px;
+    padding:10px;
+    text-align:center;
+  }
+  .step strong {display:block;color:var(--accent);}
+  footer {
+    margin-top:24px;
+    text-align:center;
+    color:#607080;
+    font-size:13px;
+  }
+  @media(max-width:720px){h1{font-size:21px}.logo{width:64px;height:64px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">ETH</div>
+    <div>
+      <h1>Ethical Constructs & Inclusivity in Engineering</h1>
+      <p class="lead">Understanding prejudice, discrimination, and harassment; and fostering inclusivity and diversity across engineering communities in Québec and Canada.</p>
+    </div>
+  </header>
+
+  <section class="grid">
+    <article class="card">
+      <h3>Prejudice</h3>
+      <p>Prejudice means forming negative opinions about individuals before knowing them. In professional engineering, this can cloud judgment, impact teamwork, and limit innovation.</p>
+      <div class="icons">
+        <div class="icon">💭</div>
+        <div class="icon">🚫</div>
+        <div class="icon">🤝</div>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>Discrimination</h3>
+      <p>Discrimination is when prejudice leads to unfair treatment based on race, gender, age, or any personal attribute. Engineers should create environments where these labels don't matter.</p>
+      <div class="icons">
+        <div class="icon">⚖️</div>
+        <div class="icon">👩🏽‍🔧</div>
+        <div class="icon">👨🏻‍💻</div>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>Harassment</h3>
+      <p>Harassment can be sexual, racial, or verbal ridicule. It damages both individuals and the team. Engineers must take action to stop it, prevent it and report it.</p>
+      <div class="icons">
+        <div class="icon">🚷</div>
+        <div class="icon">💬</div>
+        <div class="icon">🛡️</div>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>Inclusivity & Diversity</h3>
+      <p>Inclusivity means recognizing and valuing differences in backgrounds, identities, and perspectives. In Québec and Canada, equity and diversity are essential to our society so engineering entities embody those values too.</p>
+      <div class="icons">
+        <div class="icon">🌈</div>
+        <div class="icon">🧑‍🤝‍🧑</div>
+        <div class="icon">🍁</div>
+      </div>
+    </article>
+
+    <article class="card" style="grid-column:1/-1">
+      <h3>Building Ethical Engineering Environments</h3>
+      <div class="flow">
+        <div class="step"><strong>1. Awareness</strong><small>Recognize bias and privilege</small></div>
+        <div class="step"><strong>2. Education</strong><small>Learn codes of ethics & legal rights</small></div>
+        <div class="step"><strong>3. Action</strong><small>Intervene when seeing misconduct and wrongdoings</small></div>
+        <div class="step"><strong>4. Inclusivity</strong><small>Design workplaces for all</small></div>
+        <div class="step"><strong>5. Accountability</strong><small>Reflect, report, and improve policies</small></div>
+      </div>
+      <p style="margin-top:12px;color:#324;">There is a culture built in engineering where everyone can feel safe, valued and heard. This in turn creates trust in engineers since they follow these ethically constructed rules.</p>
+    </article>
+
+    <article class="card">
+      <h3>Your Reflection</h3>
+      <p>How can we, as  future engineers, contribute to inclusivity and prevent prejudice in group projects, labs, or future workplaces?</p>
+      <ul style="margin-top:8px">
+        <li>Listen actively to all voices</li>
+        <li>Not stay silent against biased language or jokes</li>
+        <li>Support diversity initiatives</li>
+      </ul>
+    </article>
+  </section>
+
+  <footer>
+    <p><strong>ENGR 201 — Professional Practice & Responsibility</strong><br>
+    Designed by Zlatin Tsvetkov — Ethical Constructs & Inclusivity Poster</p>
+  </footer>
+</div>
+</body>
+</html>
